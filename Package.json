@@ -1,12 +1,13 @@
 {
-  "name": "gridv21-api",
+  "name": "gridv21",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "gridv21.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node gridv21.js"
   },
   "dependencies": {
     "express": "^4.18.2",
-    "node-fetch": "^2.6.7"
+    "mongoose": "^7.0.0",
+    "dotenv": "^16.0.0"
   }
 }
